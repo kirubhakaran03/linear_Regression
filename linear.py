@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import pickle
 
 # Load the data
-#df = pd.read_csv("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/001/839/original/Jamboree_Admission.csv")
+df = pd.read_csv("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/001/839/original/Jamboree_Admission.csv")
 
 # Scale the features
 scaler = MinMaxScaler()
